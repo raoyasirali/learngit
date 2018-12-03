@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Assignment 2</title>
+	<script type="text/javascript">
+		function check(){
+			var u_name = document.getElementById('txt1').value;	
+			if(u_name=="" || u_name==null){
+				document.getElementById('u_name_err').innerHTML = "Incomplete Info";
+			}
+		
+			var u_gen_male =document.getElementById('u_gen_male').value;
+			var u_gen_female=document.getElementById('u_gen_female').value;
+			if(u_gen_female.checked||u_gen_male.checked)
+			{  
+
+			}
+		    else{
+		    	//document.getElementById('u_radio_err').innerHTML = "Select any Option ";
+		    	alert("Select your gender.");
+		    }
+			var u_nationality=document.getElementById('u_nationality').value;
+			if(u_nationality=="-Select-")
+			{
+				alert("Select your Nationality.");
+			}
+		    else{
+		    	//document.getElementById('u_radio_err').innerHTML = "Select any Option ";	
+		    }
+			var u_skill_Asp=document.getElementById('u_skill_Asp').value;
+			var u_skill_jQuery=document.getElementById('u_skill_jQuery').value;
+			var u_skill_Mvc=document.getElementById('u_skill_Mvc').value;
+			var u_skill_Sql=document.getElementById('u_skill_Sql').value;
+			if(u_skill_Asp.checked||u_skill_jQuery.checked||u_skill_Mvc.checked||u_skill_Sql.checked)
+			{  
+
+			}
+		    else{
+		    	//document.getElementById('u_radio_err').innerHTML = "Select any Option ";
+		    	alert("Select at-least one Skill.");
+		    }
+			var u_post_Tranie=document.getElementById('u_post_Tranie').value;
+			var u_post_SoftEng=document.getElementById('u_post_SoftEng').value;
+			var u_post_TeamLead=document.getElementById('u_post_TeamLead').value;
+			var u_post_ProjManager=document.getElementById('u_post_ProjManager').value;
+			if(u_post_Tranie.checked||u_post_SoftEng.checked||u_post_TeamLead.checked||u_post_ProjManager.checked)
+			{  
+
+			}
+		    else{
+		    	//document.getElementById('u_radio_err').innerHTML = "Select any Option ";
+		    	alert("Select one Post.");
+		    }
+
+			var u_Notify=document.getElementById('u_Notify').value;
+			if(u_Notify.checked)
+			{  
+
+			}
+		    else{
+		    	//document.getElementById('u_radio_err').innerHTML = "Select any Option ";
+		    	alert("Check the box.");
+		    }
+			var u_Agree=document.getElementById('u_Agree').value;
+			if(u_Agree.checked)
+			{  
+
+			}
+		    else{
+		    	//document.getElementById('u_radio_err').innerHTML = "Select any Option ";
+		    	alert("Check the box.");
+		    }
+
+
+		}
+	</script>
+</head>
+<body style="margin: 0;padding: 0">
+	<div style="float: left;width:1536px ;height:753px; "> <!--MAin Outer Div 1 size 1366px ;height:626px-->
+
+		<div style="float: left;width: 1536px;height: 90px;background-image: url(bg.png)"> <!--Logo Bar Div 2 -->
+			<div style="float: left;">
+			   <img src="logo1.png">
+            </div>
+
+            <div style="float: right;padding-top: 50px">
+			   <span style="color: rgb(0,52,104);font-size: 24;padding-right: 10px"><b>Contact Us: +44 1618480031 | +44 2078706440</b></span>
+            </div>
+
+		</div> <!--Closing Logo Bar Div 2 -->
+		
+		<div style="margin-left: 2px;margin-right: 2px;margin-top: 0px;float: left;width:1530px;height: 60px;background-color: rgb(102,102,102); "> <!--Menu Bar Div 3 -->
+			<div style="float: left;height: 33px;width: 150px;background-color: white;margin-top: 4px;margin-left: 4px;padding-top:20px ;padding-left: 60px"><span style="color: rgb(102,102,102)"><b> About us</b></span></div><!--Div 3.1-->
+			<div style="float: left;height: 33px;width: 150px;background-color: white;margin-top: 4px;border-left: solid thin rgb(238,238,238);padding-top:20px ;padding-left: 60px"><span style="color: rgb(102,102,102)"><b> Products</b></span></div><!--Div 3.2-->
+			<div style="float: left;height: 53px;width: 210px;background-color: white;margin-top: 4px;border-left: solid thin rgb(238,238,238)"></div><!--Div 3.3-->
+			<div style="float: left;height: 53px;width: 210px;background-color: white;margin-top: 4px;border-left: solid thin rgb(238,238,238)"></div><!--Div 3.4-->
+			<div style="float: left;height: 53px;width: 210px;background-color: white;margin-top: 4px;border-left: solid thin rgb(238,238,238)"></div><!--Div 3.5-->
+			<div style="float: left;height: 53px;width: 210px;background-color: white;margin-top: 4px;border-left: solid thin rgb(238,238,238)"></div><!--Div 3.6-->
+		</div> <!--Closing Menu Bar Div 3 -->
+
+		
+		<div  style="margin-left:6px;margin-top:0px;margin-bottom: 0px;float: left;width:1530px;height: 510px;background-color: white; "> <!--Center Main Area Div 4 -->
+			<div style="float: left;width:450px ;height:510px;background-color: white "><!--Div 4.1-->
+				<div style="float: left;width: 450px;height:36px;background-color: rgb(255,255,255);padding-left: 30px;padding-top: 10px ">
+					<span style="color: rgb(102,102,102);font-size: 28px"><b>Contact Us</b></span></br>
+				</div>
+				<div style="float: left;width: 400px;height:364px;margin-left: 15px;background-color: rgb(250,250,250);padding-left: 30px;border: solid thin rgb(238,238,238)"></br>Contact us for further information.</br></br></br>TILTON COMMUNICATION LTD</br></br>19 Modwen Road</br></br>Waters Edge Business Park</br></br>Salford Quays</br></br>MAchester</br></br>M5 3EZ</div>
+			</div><!--Closing Div 4.1-->
+			<div style="float: left;width:350px ;height:510px;background-color: white "><!--Div 4.2--></div><!--Closing Div 4.2-->
+			<div style="float: left;width:590px ;height:500px;background-color: white;"><!--Div 4.3-->
+				<div style="float: left;width:590px ;height:30px;background-color: white;"></div>
+				
+				<div  style="float: left;width:570px ;height:455px;background-color: white;padding-left: 10px;border:solid thin rgb(102,102,102)  ">
+					<div style="float: left;width:112px ;height:20px;background-color: white;padding-left: 2px;margin-top:-10px"><span> Application form</span></div></br>
+					<form>
+						<span id="u_radio_err" style="color: red"></span>
+						<span id="u_checkbox_err" style="color: red"></span>
+                    
+                	Full Name <span style="padding-left: 70px"><input type="text" name=""id="u_name" required=""/> </span><br/></br>
+                	Email      <span style="padding-left: 99.5px;"><input type="Email" id="u_email" name="" required="" /></span> <br/>
+					Gender
+					<span style="padding-left: 89px">  <input type="radio" name="gender" id="u_gen_male">Male <input type="radio"id="u_gen_female" name="gender">	Female </span> <br/>
+					Select Nationality:<span style="padding-left: 20px">
+					<select id="u_nationality">
+						<option>-Select-</option>
+						<option> Pakistan</option>
+						<option> Saudai Arabia </option>
+						<option> UAE </option>
+					</select></span> <br/>
+
+					Skills
+					<span style="padding-left: 100px"><input type="checkbox" name=""id="u_skill_Asp" />Asp.Net<input type="checkbox"id="u_skill_jQuery" name="" />jQuery</br></span>
+					<span style="padding-left: 141px"><input type="checkbox" name=""id="u_skill_Mvc" />MVC
+					<input type="checkbox" name=""id="u_skill_Sql" />Sql Server</span> <br/><br/>
+                    
+                    Post applying 
+                    <span style="padding-left: 48px"><input type="radio"id="u_post_Tranie" name="post">Trainee<input type="radio"id="u_post_SoftEng name="post">Software Engineer</span></br>
+                    for <span style="padding-left: 118px"><input type="radio"id="u_post_TeamLead" name="post">Team Leader<input type="radio"id="u_post_ProjManager" name="post">Project manager</span></br><br/>
+                    Upload Resume:<span style="padding-left: 40px"> <input type="File" name="post" required=""> </span><br/><br/>
+					
+				  	<div style="float: left;padding-left: 2px;height: 10px;width: 150px">Paste your resume</div>
+					<div style="float: left;"><textarea rows="5" cols="50" required=""></textarea></div><br/>
+					<span style="padding-left: 48px"><br/><br/><br/><br/>
+					<input type="checkbox"id="u_Notify" name="post">Notify me the status via Email<br/>
+					<input type="radio" name="post"id="u_Agree">I agree to terms & conditions<br/></span>
+					<span style="padding-left: 150px">
+					<input type="Submit" name="post" onclick="check()">
+					<input type="Reset" name="post" ></span>
+
+					</form>
+                 </div>
+			</div><!--Closing Div 4.3-->
+			<div style="float: left;width:120px ;height:510px;background-color: white "><!--Div 4.4--></div><!--Closing Div 4.4-->
+			
+		</div> <!--Closing Menu Bar Div 4 -->
+
+        
+        <div  style="margin: 6px;;margin-top:0px;margin-bottom: 0px;float: left;width:1530px;height: 30px;background-color: rgb(240,240,240);border-bottom: solid thin rgb(225,225,225) "> <!--Empty Bottom Area Div 5 -->
+			
+		</div> <!--Closing Empty bottom Area Div 5 -->
+        
+        <div style="margin: 6px;;margin-top:0px;margin-bottom: 0px;float: left;width:1530px;height: 40px;background-color: rgb(240,240,240)"> <!--Bottom Area Div 6 -->
+		   <div style="margin: 6px;;margin-top:0px;margin-bottom: 0px;float: left;width:920px;height: 20px;background-color: rgb(240,240,240);padding-top: 15px;padding-left: 600px "> <!--Bottom Area Div 6 -->
+			    <span style="color:rgb(102,102,102)"> 2012 Tlt Ltd. VoIP and Telephony Company</br></span>
+		   </div>
+		   <div style="margin: 0px;;margin-top:0px;margin-bottom: 0px;float: left;width:950px;height: 25px;background-color: rgb(240,240,240);padding-left: 580px "> <!--Bottom Area Div 6 -->
+			    <span style="color:rgb(102,102,102)"><b>Contact us | Terms and Conditions | Privacy Policy</b></span>
+		   </div> 
+</div> <!-- Closing Bottom Area Div 6 -->
+
+
+
+
+	</div>   <!--Closing Main Outer Div 1-->
+
+</body>
+</html>
